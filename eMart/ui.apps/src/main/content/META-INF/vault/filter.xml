@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/eMart/clientlibs"/>
+    <filter root="/apps/eMart/components"/>
+    <filter root="/apps/eMart/i18n"/>
+</workspaceFilter>
