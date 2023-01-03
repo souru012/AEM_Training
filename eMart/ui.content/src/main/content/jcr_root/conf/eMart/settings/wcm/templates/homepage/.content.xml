@@ -2,11 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2023-01-03T17:09:43.731+05:30"
+        cq:lastModified="{Date}2023-01-03T17:30:22.741+05:30"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/eMart/settings/wcm/template-types/xf"
-        jcr:description="My Site Experience Fragment Template"
+        cq:templateType="/conf/eMart/settings/wcm/template-types/page"
+        jcr:description="This template will be used for homepage"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Web Variation"
+        jcr:title="homepage"
         status="enabled"/>
 </jcr:root>

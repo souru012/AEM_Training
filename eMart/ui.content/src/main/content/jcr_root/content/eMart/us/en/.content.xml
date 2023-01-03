@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        pageTitle="eMart"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-12-23T15:01:18.374+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/eMart/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="eMart/components/page"
-    >
+        pageTitle="eMart">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="eMart/components/container"
@@ -73,11 +74,14 @@
                         </cq:responsive>
                     </teaser_copy_1579324932>
                     <helloworld
+                        jcr:lastModified="{Date}2022-12-23T15:01:18.364+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="eMart/components/helloworld"
-                        text="lalala :)"/>
+                        text="yo yo"/>
                 </container>
             </container>
         </root>
     </jcr:content>
+    <home/>
 </jcr:root>
