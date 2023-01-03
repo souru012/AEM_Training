@@ -6,6 +6,5 @@
                 <img src="${logo.src}" class="cmp-logo__image"alt="logo">
             </a>
 
-    </div>
 </div>
-<sly data-sly-call="${templates.placeholder @ isEmpty = !logo.src, classAppend = 'cmp-logo cq-dd-logo'}"></sly>
+<sly data-sly-test="${! logo.src }">Please Configure Logo Component</sly>
