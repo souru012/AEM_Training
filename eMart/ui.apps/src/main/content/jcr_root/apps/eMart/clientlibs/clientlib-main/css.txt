@@ -1,0 +1,12 @@
+#base=css
+bootstrap.min.css
+animate.css
+swiper-bundle.css
+slick.css
+magnific-popup.css
+spacing.css
+meanmenu.css
+nice-select.css
+fontawesome.min.css
+icon-dukamarket.css
+main.css

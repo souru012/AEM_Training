@@ -1,0 +1,10 @@
+<div data-sly-use.logo="com.ecomm.core.models.LogoModel"
+     data-sly-test="${logo.src}"
+     data-sly-use.templates="core/wcm/components/commons/v1/templates.html">
+    <div class="cmp-logo">
+        <div  data-sly-unwrap>
+            <a href="${logo.href}"><img src="${logo.src}" alt="logo"></a>
+        </div>
+    </div>
+</div>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !logo.src, classAppend = 'cmp-logo cq-dd-logo'}"></sly>

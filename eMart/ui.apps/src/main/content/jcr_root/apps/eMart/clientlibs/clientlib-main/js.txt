@@ -1,0 +1,16 @@
+#base=js
+jquery.js
+waypoints.js
+bootstrap.bundle.min.js
+swiper-bundle.js
+nice-select.js
+slick.js
+magnific-popup.js
+counterup.js
+wow.js
+isotope-pkgd.js
+imagesloaded-pkgd.js
+countdown.js
+ajax-form.js
+meanmenu.js
+main.js
