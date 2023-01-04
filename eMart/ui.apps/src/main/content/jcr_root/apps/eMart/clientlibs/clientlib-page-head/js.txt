@@ -1,2 +1,3 @@
 #base=js
 jquery.js
+bootstrap.bundle.min.js

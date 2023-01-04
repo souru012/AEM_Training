@@ -2,7 +2,7 @@
 //== XF Header style, used on page template
 
 header.experiencefragment {
-    padding: .5em 1em;
+    padding: 0;
     border-bottom: 1px solid $color-foreground;
 
     @media (prefers-color-scheme: dark) {
@@ -29,33 +29,49 @@ header.experiencefragment {
     }
 
     //== Grid layout
-
-    .cmp-container {
-        display: grid;
-        grid-template-columns: 4fr 1fr 1fr;
-    }
-
-    //== Navigation
-
-    .cmp-navigation__group {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    .cmp-navigation__item--level-0 {
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-
-        & > .cmp-navigation__group {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+    .container.responsivegrid:nth-child(1){
+        background: $bg-yellow;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        .languagenavigation{
+            width: 100%;
+            .cmp-languagenavigation__group{
+                a{
+                    color: $color-white;
+                }
+            }
+        }
+        .search{
+            max-width: 250px;
         }
     }
-    .cmp-navigation__item-link {
-        display: block;
-    }
-    .cmp-navigation__item--active > .cmp-navigation__item-link {
-        font-weight: bold;
+
+    .container.responsivegrid {
+        .cmp-container{
+            display: flex;
+            grid-template-columns: 2fr 4fr;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: space-between;
+            .logo{
+                .cmp-logo__link{
+                    .cmp-logo__image{
+                        max-width: 130px;
+                    }
+                }
+            }
+            .navigation{
+                nav{
+                    ul.cmp-navigation__group{
+                       li{
+                        display: inline-block;
+                        margin: 0 15px;
+                       }
+                    }
+                }
+            }
+        }
+        
     }
 
     //== Language Navigation
